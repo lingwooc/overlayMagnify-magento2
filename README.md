@@ -8,4 +8,14 @@ Put the default magnify preview over the top of the thumbnail in magento2. Some 
 - php bin/magento setup:static-content:deploy
 
 # Usage
-It should _just work_.
+It should _just work_. 
+
+Note this overrides the following settings from view.xml:
+'''
+<var name="magnifier">
+	<var name="top">100</var> <!-- Top position of magnifier -->
+	<var name="left">45</var> <!-- Left position of magnifier -->
+	<var name="width">7700</var> <!-- Width of magnifier block -->
+	<var name="height">7700</var> <!-- Height of magnifier block -->
+</var>
+'''
