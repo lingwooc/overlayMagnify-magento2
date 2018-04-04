@@ -2,6 +2,6 @@
  
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'thousandmonkeys_OverlayMagnify',
+    'ThousandMonkeys_OverlayMagnify',
     __DIR__
 );
